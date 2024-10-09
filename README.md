@@ -1,4 +1,15 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+# CodenameNickname 🕵️‍♂️
+
+**Codename Creator** เป็นเครื่องมือสร้างชื่อเล่น ซึ่งช่วยให้คุณสร้างชื่อเล่น **12 ชื่อ** 
+
+เพิ่มความปลอดภัยให้กับชวิตของคุณ โดยการสร้างฉายาของคุณ คุณสามารถนำไปใช้งานได้หลายรูปเเบบ เช่น คุณเอาชื่อเล่นของคุณไปบอกคนข้างบ้าน หากเวลาคุณได้ยินชื่อเล่นนี้ คุณก็จะรู้ว่า ชื่อเล่นนี้คนที่เรียกต้องเป็นข้างบ้านของคุณอย่างเเน่นอน เเละ กรณีคุณให้ชื่อกับ องค์กร A หากคนจากองค์กร A โทรมาหาคุณเเละพูดชื่อเล่นของคุณถูก คุณก็สามารถมั่นใจได้อีกครั้งว่ามาจากองค์กรนี้จริงๆ
+
+ใช้ระบบ SHA-256 
+
+## ฟีเจอร์
+
+- สร้างชื่อเล่นได้ระหว่าง  12 ชื่อ
 
 ## Getting Started
 
@@ -14,23 +25,4 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
