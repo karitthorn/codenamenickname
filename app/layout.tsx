@@ -1,12 +1,11 @@
 import type { Metadata } from "next";
-import { Kanit} from "next/font/google";
+import { Kanit } from "next/font/google";
 import "./globals.css";
 
 const kanit = Kanit({
-  subsets: ["latin"],
+  subsets: ["latin", "thai"],
   display: "swap",
-  variable: "--font-kanit",
-  weight: ["400", "700"],
+  weight: ["400", "500"],
 });
 
 export const metadata: Metadata = {
@@ -20,10 +19,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${kanit.variable} antialiased font-kanit`}>
+    <html lang="th">
+      <body className={`${kanit.className} min-h-screen`}>
         {children}
       </body>
     </html>
   );
 }
+
+

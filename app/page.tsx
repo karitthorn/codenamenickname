@@ -150,7 +150,7 @@ export default function Home() {
             />
           </svg>
         </button>
-        <div className="mt-10 text-3xl text-gray-800">
+        <div className="mt-10 text-3xl text-gray-800 m-2">
           {passphrase && <p>{passphrase}</p>}
         </div>
       </div>
